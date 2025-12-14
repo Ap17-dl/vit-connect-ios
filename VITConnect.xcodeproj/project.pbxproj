@@ -9,6 +9,31 @@
 /* Begin PBXBuildFile section */
 		A1000001 /* VITConnectApp.swift */ = {isa = PBXBuildFile; fileRef = A1000002 /* VITConnectApp.swift */; };
 		A1000003 /* ContentView.swift */ = {isa = PBXBuildFile; fileRef = A1000004 /* ContentView.swift */; };
+		A1000010 /* User.swift */ = {isa = PBXBuildFile; fileRef = A1000009 /* User.swift */; };
+		A1000012 /* Attendance.swift */ = {isa = PBXBuildFile; fileRef = A1000011 /* Attendance.swift */; };
+		A1000014 /* Grade.swift */ = {isa = PBXBuildFile; fileRef = A1000013 /* Grade.swift */; };
+		A1000016 /* Timetable.swift */ = {isa = PBXBuildFile; fileRef = A1000015 /* Timetable.swift */; };
+		A1000018 /* MessMenu.swift */ = {isa = PBXBuildFile; fileRef = A1000017 /* MessMenu.swift */; };
+		A1000020 /* Faculty.swift */ = {isa = PBXBuildFile; fileRef = A1000019 /* Faculty.swift */; };
+		A1000022 /* CabShare.swift */ = {isa = PBXBuildFile; fileRef = A1000021 /* CabShare.swift */; };
+		A1000024 /* Theme.swift */ = {isa = PBXBuildFile; fileRef = A1000023 /* Theme.swift */; };
+		A1000026 /* AuthManager.swift */ = {isa = PBXBuildFile; fileRef = A1000025 /* AuthManager.swift */; };
+		A1000028 /* LoginView.swift */ = {isa = PBXBuildFile; fileRef = A1000027 /* LoginView.swift */; };
+		A1000030 /* MainTabView.swift */ = {isa = PBXBuildFile; fileRef = A1000029 /* MainTabView.swift */; };
+		A1000032 /* HomeView.swift */ = {isa = PBXBuildFile; fileRef = A1000031 /* HomeView.swift */; };
+		A1000034 /* AttendanceView.swift */ = {isa = PBXBuildFile; fileRef = A1000033 /* AttendanceView.swift */; };
+		A1000036 /* AcademicView.swift */ = {isa = PBXBuildFile; fileRef = A1000035 /* AcademicView.swift */; };
+		A1000038 /* TimetableView.swift */ = {isa = PBXBuildFile; fileRef = A1000037 /* TimetableView.swift */; };
+		A1000040 /* MessMenuView.swift */ = {isa = PBXBuildFile; fileRef = A1000039 /* MessMenuView.swift */; };
+		A1000042 /* LaundryView.swift */ = {isa = PBXBuildFile; fileRef = A1000041 /* LaundryView.swift */; };
+		A1000044 /* FriendsScheduleView.swift */ = {isa = PBXBuildFile; fileRef = A1000043 /* FriendsScheduleView.swift */; };
+		A1000046 /* FacultyRatingView.swift */ = {isa = PBXBuildFile; fileRef = A1000045 /* FacultyRatingView.swift */; };
+		A1000048 /* CabShareView.swift */ = {isa = PBXBuildFile; fileRef = A1000047 /* CabShareView.swift */; };
+		A1000050 /* LostFoundView.swift */ = {isa = PBXBuildFile; fileRef = A1000049 /* LostFoundView.swift */; };
+		A1000052 /* ThemeView.swift */ = {isa = PBXBuildFile; fileRef = A1000051 /* ThemeView.swift */; };
+		A1000054 /* ProfileView.swift */ = {isa = PBXBuildFile; fileRef = A1000053 /* ProfileView.swift */; };
+		A1000056 /* SettingsView.swift */ = {isa = PBXBuildFile; fileRef = A1000055 /* SettingsView.swift */; };
+		A1000058 /* MoreView.swift */ = {isa = PBXBuildFile; fileRef = A1000057 /* MoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +41,31 @@
 		A1000002 /* VITConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VITConnectApp.swift; sourceTree = "<group>"; };
 		A1000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1000005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1000009 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A1000011 /* Attendance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendance.swift; sourceTree = "<group>"; };
+		A1000013 /* Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
+		A1000015 /* Timetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timetable.swift; sourceTree = "<group>"; };
+		A1000017 /* MessMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessMenu.swift; sourceTree = "<group>"; };
+		A1000019 /* Faculty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faculty.swift; sourceTree = "<group>"; };
+		A1000021 /* CabShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabShare.swift; sourceTree = "<group>"; };
+		A1000023 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A1000025 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		A1000027 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A1000029 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A1000031 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A1000033 /* AttendanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceView.swift; sourceTree = "<group>"; };
+		A1000035 /* AcademicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicView.swift; sourceTree = "<group>"; };
+		A1000037 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
+		A1000039 /* MessMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessMenuView.swift; sourceTree = "<group>"; };
+		A1000041 /* LaundryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryView.swift; sourceTree = "<group>"; };
+		A1000043 /* FriendsScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsScheduleView.swift; sourceTree = "<group>"; };
+		A1000045 /* FacultyRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyRatingView.swift; sourceTree = "<group>"; };
+		A1000047 /* CabShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabShareView.swift; sourceTree = "<group>"; };
+		A1000049 /* LostFoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostFoundView.swift; sourceTree = "<group>"; };
+		A1000051 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		A1000053 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A1000055 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A1000057 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -33,6 +83,9 @@
 				A1000002 /* VITConnectApp.swift */,
 				A1000004 /* ContentView.swift */,
 				A1000005 /* Info.plist */,
+				A1000059 /* Models */,
+				A1000060 /* Managers */,
+				A1000061 /* Views */,
 			);
 			path = VITConnect;
 			sourceTree = "<group>";
@@ -45,12 +98,58 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A1000059 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1000009 /* User.swift */,
+				A1000011 /* Attendance.swift */,
+				A1000013 /* Grade.swift */,
+				A1000015 /* Timetable.swift */,
+				A1000017 /* MessMenu.swift */,
+				A1000019 /* Faculty.swift */,
+				A1000021 /* CabShare.swift */,
+				A1000023 /* Theme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1000060 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A1000025 /* AuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A1000061 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1000027 /* LoginView.swift */,
+				A1000029 /* MainTabView.swift */,
+				A1000031 /* HomeView.swift */,
+				A1000033 /* AttendanceView.swift */,
+				A1000035 /* AcademicView.swift */,
+				A1000037 /* TimetableView.swift */,
+				A1000039 /* MessMenuView.swift */,
+				A1000041 /* LaundryView.swift */,
+				A1000043 /* FriendsScheduleView.swift */,
+				A1000045 /* FacultyRatingView.swift */,
+				A1000047 /* CabShareView.swift */,
+				A1000049 /* LostFoundView.swift */,
+				A1000051 /* ThemeView.swift */,
+				A1000053 /* ProfileView.swift */,
+				A1000055 /* SettingsView.swift */,
+				A1000057 /* MoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1000009 /* VITConnect */ = {
+		A1000062 /* VITConnect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1000010 /* Build configuration list for PBXNativeTarget "VITConnect" */;
+			buildConfigurationList = A1000063 /* Build configuration list for PBXNativeTarget "VITConnect" */;
 			buildPhases = (
 				A1000011 /* Sources */,
 				A1000012 /* Frameworks */,
@@ -88,7 +187,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1000009 /* VITConnect */,
+				A1000062 /* VITConnect */,
 			);
 		};
 /* End PBXProject section */
@@ -110,6 +209,31 @@
 			files = (
 				A1000001 /* VITConnectApp.swift in Sources */,
 				A1000003 /* ContentView.swift in Sources */,
+				A1000010 /* User.swift in Sources */,
+				A1000012 /* Attendance.swift in Sources */,
+				A1000014 /* Grade.swift in Sources */,
+				A1000016 /* Timetable.swift in Sources */,
+				A1000018 /* MessMenu.swift in Sources */,
+				A1000020 /* Faculty.swift in Sources */,
+				A1000022 /* CabShare.swift in Sources */,
+				A1000024 /* Theme.swift in Sources */,
+				A1000026 /* AuthManager.swift in Sources */,
+				A1000028 /* LoginView.swift in Sources */,
+				A1000030 /* MainTabView.swift in Sources */,
+				A1000032 /* HomeView.swift in Sources */,
+				A1000034 /* AttendanceView.swift in Sources */,
+				A1000036 /* AcademicView.swift in Sources */,
+				A1000038 /* TimetableView.swift in Sources */,
+				A1000040 /* MessMenuView.swift in Sources */,
+				A1000042 /* LaundryView.swift in Sources */,
+				A1000044 /* FriendsScheduleView.swift in Sources */,
+				A1000046 /* FacultyRatingView.swift in Sources */,
+				A1000048 /* CabShareView.swift in Sources */,
+				A1000050 /* LostFoundView.swift in Sources */,
+				A1000052 /* ThemeView.swift in Sources */,
+				A1000054 /* ProfileView.swift in Sources */,
+				A1000056 /* SettingsView.swift in Sources */,
+				A1000058 /* MoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +368,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = VITConnect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -273,7 +397,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = VITConnect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,7 +420,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1000010 /* Build configuration list for PBXNativeTarget "VITConnect" */ = {
+		A1000063 /* Build configuration list for PBXNativeTarget "VITConnect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1000018 /* Debug */,
@@ -318,4 +442,3 @@
 	};
 	rootObject = A1000014 /* Project object */;
 }
-
